@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
 
-const url = "http://localhost:5000"; // Replace with your server URL
+const url = "https://image-to-base64-conversion.onrender.com";
 
 function ImageList() {
   const [images, setImages] = useState([]);
