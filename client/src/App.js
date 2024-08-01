@@ -76,8 +76,9 @@ function App() {
           style={{ display: 'none' }}
         />
 
-        <h3>Doris Wilder</h3>
-        <span>Designer</span>
+        <h3>Prajwal Bhoyar</h3>
+        <span>Full Stack Developer</span>
+        <br />
 
         <button type="button" onClick={handleSelectImage}>
           Select Image
