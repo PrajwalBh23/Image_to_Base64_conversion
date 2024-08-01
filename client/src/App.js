@@ -45,6 +45,7 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
     createPost(postImage);
+    alert("Image Submited Successfully");
     console.log("Image Uploaded");
   };
 
